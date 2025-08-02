@@ -151,7 +151,7 @@ MonoBehaviour:
   m_playerPrefab: {fileID: 4786439766013862, guid: d41d98bdcd6e95d479e855c6b14414fa, type: 3}
   m_roomPrefabs:
   - {fileID: 714549254433668975, guid: 59bd7140b91c6d2479e4901e229592cd, type: 3}
-  - {fileID: 714549254433668975, guid: af0097dbbaf8fc04e92e280068ec9d6c, type: 3}
+  - {fileID: 714549254433668975, guid: 5f70c69ed8899c34aa945a9072587efb, type: 3}
   - {fileID: 714549254433668975, guid: 3b5f3efe730ddfc4a845a881fbe626ef, type: 3}
   - {fileID: 714549254433668975, guid: f353faffa0a59604485442c36453205d, type: 3}
   - {fileID: 714549254433668975, guid: 9d99df63b03ee60418ec48624b15bfe5, type: 3}
@@ -193,7 +193,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1045504574
 MonoBehaviour:
-  m_ObjectHideFlags: 19
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -203,7 +203,6 @@ MonoBehaviour:
   m_Script: {fileID: 1642155417}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Entries: []
 --- !u!4 &1045504575
 Transform:
   m_ObjectHideFlags: 19
