@@ -47,11 +47,16 @@ public class PlayerController : MonoBehaviour
         float animTime = m_animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
         if (m_moveDirection != Vector3.zero)
         {
-            animTime = Mathf.Clamp(animTime + Time.deltaTime, 0f, 1f);
+            animTime = Mathf.Clamp(animTime + Time.deltaTime * 1.8f, 0f, 1f);
             if (animTime > 0.99f)
             {
+                m_footstepFeedback.PlayFeedbacks();
                 animTime = 0f; // Reset animation time if it exceeds 1
             }
+        }
+        else
+        {
+            animTime = 0;
         }
         
         m_animator.Play("PlayerWalk", 0, animTime);
